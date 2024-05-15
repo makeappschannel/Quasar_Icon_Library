@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.woff?a4cb4973c9fb779f7a4894cd65b54a45") format("woff"),
+url("./icons.woff2?a4cb4973c9fb779f7a4894cd65b54a45") format("woff2");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-custom-member:before {
+    content: "\f101";
+}
+.icon-eva-activity-outline:before {
+    content: "\f102";
+}
+.icon-fa-500px-brands:before {
+    content: "\f103";
+}
+.icon-if-phone:before {
+    content: "\f104";
+}
+.icon-ion-md-add-circle-outline:before {
+    content: "\f105";
+}
+.icon-la-accessible-icon:before {
+    content: "\f106";
+}
+.icon-mat-arrow_drop_down:before {
+    content: "\f107";
+}
+.icon-mat-search:before {
+    content: "\f108";
+}
+.icon-mat-settings:before {
+    content: "\f109";
+}
+.icon-ti-arrow-up:before {
+    content: "\f10a";
+}
